@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+  user-select: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  height: 100vh;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.SettingPage {
+  width: 100vw;
+}
+
+.Profiles {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5vh;
+  height: 5vh;
+  width: 83vw;
+  /* border: 2px solid white; */
+}
+
+.ProfileArea {
+  display: flex;
+  font-size: calc(10px + 1vmin);
+  color: #70798c;
+}
+
+.now_on {
+  color: white;
+}
+
+.Profile {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.Profile:hover {
+  color: white;
+}
+
+.Profiles hr {
+  width: 83vw;
+  margin: 0;
+}
+
+.FnKey {
+  margin: 0.3vh;
+  width: 6vw;
+  height: 5vh;
+  border: 3px solid white;
+  border-radius: 10px;
+  line-height: 5vh;
+  transition: 0.1s;
+}
+
+.FnKey:hover {
+  background-color: #6c6e75;
+  width: 9vw;
+  height: 7.25vh;
+  line-height: 7.25vh;
+  font-size: calc(15px + 3vmin);
+}
+
+.FnKeys {
+  position: fixed;
+  margin-top: 14vh;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.Preference {
+  /* border: 3px solid white; */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 10px;
+  width: 85vw;
+  height: 60vh;
+  margin-top: 25vh;
+  text-align: left;
+  font-size: calc(15px + 3vmin);
+}
+
+.Preference .Key {
+  margin-top: 1vh;
+  margin-left: 2.5vh;
+}
+
+.Preference hr {
+  margin-top: 0;
+  width: 97%;
+}
+
+.Chain-title {
+  margin-left: 1.5%;
+  font-size: calc(10px + 2.3vmin);
+}
+
+.Chains {
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+  display: flex;
+  width: 97%;
+  height: 10%;
+  margin-left: 1.5%;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-bottom: 1%;
+}
+
+.ChainBtn:hover {
+  background-color: #a92c2c;
+}
+
+.ChainBtn:active {
+  background-color: #ff0000;
+  transform: scale(0.9);
+}
+
+.Options {
+  width: 97%;
+  height: 78%;
+  margin-left: 1.5%;
+  /* border: 1px solid white; */
+  font-size: calc(10px + 2vmin);
+}
+
+.ActionBtn,
+.ChainBtn {
+  margin: 0.3vh;
+  padding-left: 0.5vh;
+  padding-right: 0.5vh;
+  border: 2px solid white;
+  border-radius: 5px;
+  transition: 0.1s;
+  font-size: calc(10px + 1vmin);
+}
+
+.ActionBtn:hover {
+  background-color: #6e737d;
+}
+
+.ActionBtn:active {
+  background-color: #9ba2ae;
+  transform: scale(0.9);
+}
+
+.ops {
+  display: flex;
+  margin-bottom: 1.5vh;
+}
+
+.specArea {
+  height: 6vh;
+}
+
+.Action-Specifier {
+  margin-top: 3%;
+  border: 2px solid white;
+  border-radius: 8px;
+  height: 5vh;
+}
+
+.specButtonArea {
+  margin-top: 0.6vh;
+  display: flex;
+}
+
+.specSubmit {
+  margin-left: 73vw;
+  margin-right: 0.3vw;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #335d45;
+  color: white;
+  font-size: calc(5px + 1.2vmin);
+}
+
+.specSubmit:hover {
+  background-color: #578069;
+}
+
+.specSubmit:active {
+  background-color: #81a591;
+}
+
+.specCancel {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #5d3333;
+  color: white;
+  font-size: calc(5px + 1.2vmin);
+}
+
+.specCancel:hover {
+  background-color: #865959;
+}
+
+.specCancel:active {
+  background-color: #ab8686;
+}
